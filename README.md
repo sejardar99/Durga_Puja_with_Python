@@ -1,2 +1,9 @@
-# Durga_Puja_with_Python
-Class Project for Spatial Thoughts 'Python Foundation for Spatial Analysis' course. 
+# ABOUT THIS PROJECT
+
+I completed the [_Python Foundation for Spatial Analysis_](https://spatialthoughts.com/courses/python-foundation-for-spatial-analysis/) course from [__Spatial Thoughts__](https://spatialthoughts.com/), which is one of the leading platforms in providing valuable training and learning in modern geospatial technologies. The course involved three days of workshop (on 5th July 2020, 6th July 2022 and 7th July 2022), followed by a duration of 2 weeks to build a project. 
+
+This is the final class project for the course. In this project, I have tried using Python to spatially visualize a very simple idea. 
+I am new to the city of Kolkata and I am very excited about enjoying this year's Durga Puja festival here. So, I made a list of some famous places of Kolkata where Durga Puja is celebrated with utmost grandeur, and geocoded them to get their coordinates. 
+Then I made an API call to OpenRouteService.org and used their amazing Optimization service to get an optimum route to travel from my home to all those Durga Puja places I can't wait to visit. 
+But travelling throught the day will definitely make me hungry! So, the next thing I did was, create 1 km buffer zones around each place. I merged the buffer ploygons into a sinlge polygon and overlayed it with a vector layer of restaurants of Kolkata, represented as point geometries. Finally, I extracted only those restaurant points which intersected with the merged polygon, so that I could get all those restaurants which are loacted within 1 km of the places I shall visit.
+The end result is a beautiful map of Kolkata showing my home and all the Durga Puja places I want to visit this year, the optimum route to travel, and the restaurants that I can check out within 1 km of each place I visit. It's unbelievable how Python could help me sort my Durga Puja for this year!
